@@ -1,0 +1,15 @@
+version: 1
+savings:
+  min_savings_rate: 0.10      # Aim for at least 10% if feasible
+  max_auto_transfer_rate: 0.30
+debt:
+  avalanche_default: true
+  min_payment_floor: 1000
+alerts:
+  overspend_trigger_pct_of_budget: 0.85  # warn when 85% budget is consumed early
+  high_single_txn_multiple_of_mean: 4.0  # outlier detector
+risk:
+  max_single_recommendation_amount: 20000   # INR; require explicit confirmation beyond this
+ui:
+  default_currency: "INR"
+  date_format: "YYYY-MM-DD"

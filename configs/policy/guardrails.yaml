@@ -1,0 +1,15 @@
+version: 1
+disallowed_topics:
+  - "legal advice"
+  - "tax advice"
+  - "investment recommendations or security selection"
+  - "market predictions or guarantees"
+refusals:
+  style: "polite_concise"
+  message: "I can’t help with that. Consider speaking to a licensed professional."
+privacy:
+  request_additional_pii: false
+  redact_merchants_regex: []
+safety_checks:
+  require_confirmation_over_amount: 20000   # INR
+  block_negative_balances: true

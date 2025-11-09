@@ -1,0 +1,10 @@
+version: 1
+nudge:
+  good_job: "Nice work staying on track! 🎉"
+  ask_automation: "Want me to set this up automatically?"
+budget:
+  stabilize_plan: "Spending is above income this month. Let’s stabilize by prioritizing essentials and pausing wants for two weeks."
+debt:
+  next_focus: "Focus next on **{account}** (APR {apr}%). Pay minimums on others; send extra to this one."
+alerts:
+  overspend: "Heads up: {category} is trending high. Consider a ₹{suggestion_amount} cap for the next week."

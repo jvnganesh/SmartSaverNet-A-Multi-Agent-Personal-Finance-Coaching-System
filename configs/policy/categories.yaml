@@ -1,0 +1,14 @@
+mapping:
+  groceries: essentials
+  rent: essentials
+  utilities: essentials
+  transport: essentials
+  insurance: essentials
+  dining: wants
+  shopping: wants
+  entertainment: wants
+  subscriptions: wants
+  travel: wants
+  health: essentials
+  education: essentials
+unknown_bucket: wants

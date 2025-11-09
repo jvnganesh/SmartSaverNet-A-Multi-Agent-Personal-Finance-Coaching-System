@@ -1,0 +1,30 @@
+version: 1
+currency: "INR"
+taxonomy:
+  - name: Essentials
+    children:
+      - name: Housing
+      - name: Utilities
+      - name: Groceries
+      - name: Transport
+      - name: Healthcare
+  - name: Financial
+    children:
+      - name: Debt Payments
+      - name: Savings & Investments
+  - name: Wants
+    children:
+      - name: Dining & Coffee
+      - name: Entertainment
+      - name: Shopping
+      - name: Travel
+rules:
+  merchant_keywords:
+    Groceries: ["big bazaar", "dmart", "more supermarket", "reliance fresh"]
+    Dining & Coffee: ["swiggy", "zomato", "starbucks", "cafe", "restaurant"]
+    Transport: ["ola", "uber", "fuel", "petrol", "diesel", "metro"]
+    Utilities: ["electricity", "water board", "bescom", "tneb", "internet", "broadband"]
+    Shopping: ["amazon", "flipkart", "myntra", "ajio"]
+    Debt Payments: ["loan emi", "credit card payment", "nbfc"]
+defaults:
+  unknown_category: "Wants"

@@ -1,0 +1,9 @@
+streamlit
+pydantic>=2
+langchain
+langgraph
+python-dotenv
+pandas
+numpy
+sqlalchemy
+pyyaml
