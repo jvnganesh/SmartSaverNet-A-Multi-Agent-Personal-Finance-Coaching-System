@@ -72,7 +72,7 @@ smartsavernet/
 
 ### 1) Clone
 ```bash
-git clone https://github.com/<your-username>/SmartSaverNet.git
+git clone https://github.com/jvnganesh/SmartSaverNet.git
 cd SmartSaverNet
 
 2) Create & activate virtual environment
