@@ -29,7 +29,7 @@ All agents share and update a central **UserState**.
 ---
 
 ## 🧱 System Architecture
-
+```bash
 smartsavernet/
 │
 ├── app.py # Streamlit UI
@@ -54,7 +54,7 @@ smartsavernet/
 └── configs/ # Prompt & policy configuration (future use)
 ├── prompts/
 └── policy/
-
+```
 
 
 ---
